@@ -23,7 +23,7 @@ export default function App() {
         setTodoList(todos)
         return
       }
-      const data = await getAutoCompleteResults(query);
+      getAutoCompleteResults(query);
     })();
   }, [query]);
 
