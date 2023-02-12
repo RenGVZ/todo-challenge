@@ -83,4 +83,4 @@ const getDetails = async (id) => {
   }
 };
 
-export { getDetails, todosLoader, detailsLoader };
+export { getTodos, getTodo, getUsers, getDetails, todosLoader, detailsLoader, todosUrl, usersUrl };
